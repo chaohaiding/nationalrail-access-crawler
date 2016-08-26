@@ -5,8 +5,8 @@ This is the node js crawler for extracting accessibility information of national
 Crawler.js is mainly powered by a sets of node js modules, such as cheerio (a fast, flexible, and lean implementation of core JQuery designed specifically for the sever) for parsing and extracting the specified text from the html file, node-html-entities is Node js based a html entities library, which used for coding and encoding html entities.
 
 
-There are some issues when parsing the html page from National rail. 
-The tag <dt> and <dd> are not always appears in pairs, therefore, it is difficult to match the text into pairs. Using JQuery prev() and next() to match whether the text in both <dd> tags? If yes, use just one of content, if not ,using both of them for the current <dt> tag.
+> There are some issues when parsing the html page from National rail. 
+>  The tag <dt> and <dd> are not always appears in pairs, therefore, it is difficult to match the text into pairs. Using JQuery prev() >  and next() to match whether the text in both <dd> tags? If yes, use just one of content, if not ,using both of them for the current > <dt> tag.
 
 
 Short code for railway station is downloaded from national public transport access nodes (NaPTAN)
