@@ -1,0 +1,17 @@
+{
+  "name": "National Rail Crawler",
+  "description": "National Rail Crawler",
+  "main": "crawler.js",
+  "author": {
+    "name": "Chaohai Ding",
+    "email": "chaohaiding@hotmail.co.uk"
+  },
+  "version": "0.1.0",
+  "dependencies": {
+    "async": ">0.2.9",
+    "cheerio": ">0.13.1",
+    "csv": ">0.3.6",
+    "html-entities": ">1.0.10"
+  },
+
+}
