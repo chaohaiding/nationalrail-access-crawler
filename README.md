@@ -11,6 +11,7 @@ The tag <dt> and <dd> are not always appears in pairs, therefore, it is difficul
 
 Short code for railway station is downloaded from national public transport access nodes (NaPTAN)
 
+```json
 RailReferences Schema={
 StationName:{type:String}
 AtcoCode: {type: String}, //Full NaPTAN stop identifier that uniquely identifies the stop within the UK.
@@ -21,13 +22,11 @@ StationName:{type:String},
 Easting: {type:Number},
 Northing: {type:Number},
 Detail Information: {
-
-
 }
 //CreationDateTime: {type:Date},
 //ModificationDateTime: {type:Date},
 //RevisionNumber: {type:Number},
 //Modification: {type:String}
 }
+```
 Data Structure of detail of station in National Rail Website:
-Geodata: Easting and Northing osgb36 Grid point
