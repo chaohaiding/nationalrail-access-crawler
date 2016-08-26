@@ -11,7 +11,7 @@ The tag <dt> and <dd> are not always appears in pairs, therefore, it is difficul
 
 Short code for railway station is downloaded from national public transport access nodes (NaPTAN)
 
-```json
+```javascript
 RailReferences Schema={
 StationName:{type:String}
 AtcoCode: {type: String}, //Full NaPTAN stop identifier that uniquely identifies the stop within the UK.
